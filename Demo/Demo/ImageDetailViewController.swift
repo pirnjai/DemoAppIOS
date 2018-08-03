@@ -11,10 +11,15 @@ import UIKit
 class ImageDetailViewController: UIViewController {
 
     @IBOutlet weak var fruityName: UILabel!
+    @IBOutlet weak var image: UIImageView!
     var detail: String?
     override func viewDidLoad() {
         super.viewDidLoad()
-        fruityName.text = detail
+        
+        if let name = detail {
+            fruityName.text = name
+            image.image = UIImage(named: name)
+        }
         // Do any additional setup after loading the view.
     }
 

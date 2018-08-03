@@ -11,17 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    let fruity:[String] = ["Antoine  Griezmann",
-                            "Cristiano  Ronaldo",
-                            "Lionel  Messi",
-                            "Andres  Iniesta",
-                            "Luka  Modric",
-                            "Toni  Kroos",
-                            "Leonardo  Bonucci",
-                            "Gerard  Pique",
-                            "Jerome  Boateng",
-                            "Sergio  Ramos",
-                            "Gianluigi  Buffon"]
+    let fruity:[String] = ["apple",
+                            "orange",
+                            "pineapple",
+                            "strawberry",
+                            "avocado",
+                            "lychee",
+                            "grape",
+                            "rambutan"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
